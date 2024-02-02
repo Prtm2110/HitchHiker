@@ -1,0 +1,24 @@
+{
+  "name": "carpoolapi",
+  "version": "1.0.0",
+  "description": "a carpool api - first backend project so spare my mistakes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravghodinde/carpoolapi.git"
+  },
+  "keywords": [
+    "carpool",
+    "api",
+    "mern"
+  ],
+  "author": "gaurav ghodinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauravghodinde/carpoolapi/issues"
+  },
+  "homepage": "https://github.com/gauravghodinde/carpoolapi#readme"
+}
