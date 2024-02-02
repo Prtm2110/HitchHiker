@@ -4,6 +4,7 @@
   "description": "a carpool api - first backend project so spare my mistakes",
   "main": "index.js",
   "scripts": {
+    "run" : "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/gauravghodinde/carpoolapi/issues"
   },
-  "homepage": "https://github.com/gauravghodinde/carpoolapi#readme"
+  "homepage": "https://github.com/gauravghodinde/carpoolapi#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
