@@ -2,9 +2,10 @@
   "name": "carpoolapi",
   "version": "1.0.0",
   "description": "a carpool api - first backend project so spare my mistakes",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "run" : "npm start",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,11 @@
   },
   "homepage": "https://github.com/gauravghodinde/carpoolapi#readme",
   "dependencies": {
+    "dotenv": "^16.4.1",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.4"
   }
 }
