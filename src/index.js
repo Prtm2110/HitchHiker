@@ -1,14 +1,24 @@
 import dotenv from "dotenv"
 import dbConnect from "./db/index.js"
-import express from "express"
-const app = express()
+import app from "./app.js"
 dotenv.config({
     path: './.env'
 })
 console.log(process.env.PORT)
 
 dbConnect()
-
+.then(()=>{
+    app.on("error", (error) => {
+        console.log("ERRR: ", error);
+        throw error
+    })
+    app.listen(process.env.PORT || 8000, ()=>{
+        console.log(`server started ar port ${process.env.PORT}`)
+    })
+})
+.catch((err)=>{
+    console.log(`database connection failed ${err}`)
+})
 
 
 /*
