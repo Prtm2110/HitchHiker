@@ -2,6 +2,10 @@ import mongoose, {Schema, Types} from "mongoose";
 import jwt from "jsonwebtoken"
 import bcrypt from "bcrypt"
 
+
+
+//some models will be used for data gathering
+//
 const userSchema = new Schema(
     {
         username: {

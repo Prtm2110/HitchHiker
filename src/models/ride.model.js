@@ -1,5 +1,5 @@
 import mongoose, {Schema, Types, models} from "mongoose";
-
+//jpa 
 rideScheme = Schema({
     pickupAdd: {
         type: String,
