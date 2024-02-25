@@ -1,2 +1,3 @@
 # carpoolapi
-first backend project
+backend api for carpooling app
+
